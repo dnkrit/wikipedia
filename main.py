@@ -6,7 +6,6 @@ from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 import time
 
-
 def initialize_browser():
     # Настройки веб-драйвера Chrome
     chrome_options = Options()
